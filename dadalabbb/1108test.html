@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>dadalab</title>
+</head>
+<style type="text/css">
+
+
+#box1{
+   width:100%;
+   height: 9200px;
+   background-image: url('back25.png');
+   background-size: cover;
+}
+
+h1 {
+font-size: 16pt;
+line-height: 150%;
+}
+h2 { 
+     font-size: 16pt;
+    line-height: 150%;
+}
+header {
+  position: fixed;
+  top: 0;
+  /* width: 100% */
+  left: 0;
+  right: 0;
+  background-color: white;
+
+
+</style>
+
+  <body>
+<br><br>
+<header>
+    <div class="logo">
+        <br>
+        <img src="eta1.png"> 
+    </div>
+      
+    <div style="text-align: right; margin-right: 35px;" >
+
+        <span id="clock" style="color:black; font-size: 20px;">clock</span>
+
+        <span id="apm" style="color:black; font-size: 20px;"  >ampm</span>
+
+    </div>
+     
+<div class="clock1">
+    <script>
+        var Target = document.getElementById("clock");
+        var Target_apm = document.getElementById("apm");
+        function clock() {
+            var time = new Date();
+            var hours = time.getHours();
+            var minutes = time.getMinutes();
+            var seconds = time.getSeconds();
+            var AmPm ="AM";
+            if(hours > 12){   
+                var AmPm ="PM";
+                hours %= 12;
+            }
+
+            Target.innerText = 
+            `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}`;
+
+            Target_apm.innerText = `${AmPm}`;
+
+        }
+        clock();
+        setInterval(clock, 1000); // 1초마다 실행
+    </script>
+    </div>
+     <br>
+
+    <style>
+
+
+      
+        .logo {
+         margin-left: 2%;
+        }
+
+    </style>
+</script>
+         <hr style="border: solid 1px black; margin: -2px;" >
+       </header>
+          <body>
+        <br><br><br><br><br><br><br><br>
+<div>   <div id="box1">       
+       <div style="display: flex;">
+      <div style="width:2100%;">
+ <br> <br><br> <br><br><br><br>
+       <h1> #1. 다다랩
+ <br> <br><br>
+
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#1 -0. <br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;다다랩 내부. <br>
+   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;엄청 작은 목소리로 인사를 나눈다. <br>
+ <br> <br>
+1 : 오늘 묵독회를 하는 날이라서 작게 말을 해야 하는데,<br>
+&emsp;이렇게 말해도 들릴까요? <br>
+0 : 아! <br>
+1 : 안 들릴 것 같아 ~ ㅎㅎ <br>
+0 1 :ㅎㅎㅎㅎㅎ <br>
+1 : 밖에서 인터뷰를 하고 올까요? <br>
+0 : 아, 그래도 괜찮을까요? <br>
+1 : 앞에 밴치에서 하면 될 것 같은데. <br>
+<br><br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;의자를 끄는 소리, 이동하는 발걸음 소리. <br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;계단을 오른다. <br>
+ <br><br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;다다랩 입구 앞 벤치. <br>
+ <br><br>
+1 : 편하신 데 앉으시며언. <br>
+0 : 감사합니다 ~ <br>
+1 : 뭐뭐, 어떻게 하면 될까요?? <br>
+0 : 어..우선 저희가 무엇을 하려고 하는지에 대해서 설명을 드려야 할 것 같아서,<br>
+&emsp;&ensp;저희는 이제 질문을 하고 답을 대답이 아니라 물건으로 답을 받고<br> 
+&emsp;&ensp;그 사람에 대해서 알아가는 프로젝트를 진행 중인데요. <br>
+1 : 네. <br>
+0 : 이런 질문 과정들이 다다랩의 운영방식과 되게 비슷한 것 같아서<br> 
+ &emsp;&ensp;저희가 꼭 첫 번째로 인터뷰를 하고 싶어서<br> 
+&emsp;&ensp;이렇게 인터뷰를 요청드리게 되었습니다. <br>
+1 : 매장 놀러 오신 적 있으세요? <br>
+0 : 아니요, 처음이긴 합니다. <br>
+1 : 아 ~ 어쨌든.. 네..! 시키는 대로 잘하겠습니다. <br>
+0 1 : ㅎㅎㅎㅎㅎ <br>
+0 : 네, 저희 간단하게 4가지 질문들을 할 건데요, 지금 편하게 말로 해주셔도 되고<br> 
+&emsp;&ensp;들어가서 직접 보여주셔도 괜찮을 것 같습니다! <br>
+1 : 네. <br>
+ <br><br>
+    <div style="display: flex;">
+      <div style="width:2100%;"></div>
+      <div style="width:2100%;">
+        <br> <br><br><br> <br><br><br> 
+  <h1>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; #1 -1. 
+ <br><br><br>
+0 : 제일 첫 번째 질문입니다. 가장 이 공간에서 오래된 것은 무엇인가요? <br>
+1 : 가장 공간에서 오래된 것은.. 어~ 이거에요.  <br>
+<br><br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;뒤에 있는 우체통을 가리킨다. <br><br>
+
+     <img src="dlrj.png" onmouseover="this.src='dlrj1.png'" onmouseout="this.src='dlrj.png'"; style="cursor:pointer" onclick="window.open('file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/dadalap1-1.1.html', 'new', 'toolbar=no,location=no,directories=no, status=no,menubar=no,scrollbars=no, resizable=no,width=500,height=600');
+window.open('file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/dadalap1-1.2.html', 'new2', 'toolbar=no,location=no,directories=no, status=no,menubar=no,scrollbars=no,top=100,left=300,resizable=no,width=420,height=700')";> <br></A> 
+
+&emsp;그렇습니다. ㅎ 네. ㅎ<br>저거는 제가 그냥 길에 버려져 있던것을 주워서 <br>
+ <br><br>
+   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 뒤로 주민분들이 이야기 나누는 소리가 지나간다.<br> 
+      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; * : 근데 물건이 9800원이야. 200원 부족하다고…. 양아치지.<br>
+  <br> <br>
+&emsp;온 건데요. 씁…, 저거는 음….  <br>
+&emsp;막 어떤 물건인지도 설명을 해야되는 건가요? <br>
+0 : 관련된 에피소드가 있으면 같이 이야기해주셔도 좋습니다!  <br>
+1 : 아. 그  혜화동…, 제가 아람에 먼저 가게를 했었는데요, <br>
+&emsp;제가 원래 한 군데에 오래 있는 걸 별로 안 좋아해서.<br> 
+&emsp;아람동에서 혜화동으로 옮기고 그리고 혜화동에서 이제 여기 망원동으로 옮겼어요.<br> 
+&emsp;근데 이제 혜화동으로 옮기기 전에 이거를 주웠구요,<br> 
+&emsp;혜화동으로 옮기면서 애를 가져갔어요.<br> 
+&emsp;그리고 혜화동에도 이렇게 문지기를 해주다가 <br> 
+&emsp;그러고 이제 망원동에도 가져와서 이 tv에 심어 놓았어요. <br>
+ <br><br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;연필 소리.
+ <br><br><br>
+0 : ㅎㅎㅎㅎㅎ  <br>
+&emsp;얘가 제일 오래된 물건….<br> 
+&emsp;아! 더 오래된 물건도 있긴한데, 제가 엄청 옛날 부터 쓰던 주전자도 있구요.<br>
+&emsp;어…, 뭐…, 핸드 드립 세트 이런 것도 있는데,<br> 
+&emsp;사실 그거는 그냥 뭐라해야될까. 소모품이기 때문에,<br> 
+&emsp;제가 씁, 죽을 때까지 가지고 있을 것 같은 것 중에서는 이게 제일 오래된 것 같아요. <br>
+1 : 귀여운 에피소드네요. ㅎㅎ <br>
+0 : 이렇게 대답하면 되는 건가요?! <br>
+1 : 아, 네네네. 그냥 가볍게 이야기 해주시면 돼요! <br>
+0 : 네네, 알겠습니다. <br>
+      </div>
+    </div>
+    <div style="display: flex;">
+      <div style="width:2100%;">
+              <br> <br><br> <br> <br><br> <br> <br><br>
+<br><br>  <h1> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#1 -2. <br><br><br>
+
+1 : 다음 질문은, 이 공간에서 가장 정체성이 되는 것 같은 물건이 있다면 무엇이 있나요? <br>
+0 : 정체성이요? 어…. <br>
+ <br> <br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;오토바이 지나가는 시끄러운 소리.
+ <br> <br><br>
+0 : 정체성….  <img src="dnjsen.png" onmouseover="this.src='dnjsen1.png'" onmouseout="this.src='dnjsen.png'"; style="cursor:pointer" onclick="window.open('file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/dadalap1-2.1.html', 'new', 'toolbar=no,location=no,directories=no, status=no,menubar=no,scrollbars=no, resizable=no,width=800,height=400');
+window.open('file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/dadalap1-2.2.html', 'new2', 'toolbar=no,location=no,directories=no, status=no,menubar=no,scrollbars=no,top=0,left=600,resizable=no,width=420,height=700')";> <br>
+1 : 원두…. <br>
+0 : 원두이지 않을까…. 원두….<br>   
+&emsp;원두…, 가 계속 바뀌기는 하는데….<br>
+&emsp;제 정체성도 계속 바뀐다고 생각해서….<br>
+&emsp;원두… 가 저희가 지금 열… 열 다섯 개 정도 매주 사용을 하는데요,<br>
+&emsp;열다섯 종류 원두… .<br>
+&emsp;원두…, 가 조금,<br>
+&emsp;제가 하고 있는 작업 하고 제일 비슷해요!<br>
+&emsp;그래서 사실 커피로만 처음 이 컨셉을 시작한, 시작했구요.<br>
+&emsp;그리고 손님이, 단골들이 이런이런 것 먹고싶다 하면은,<br>
+ <br> <br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;자동차 지나가는 소리.
+    <br> <br><br>
+&emsp;‘오늘 햇살 같은 커피를 내려주세요.’ 이러면 이렇게 단골이 요청하면,<br>
+&emsp;이제 원두는 거의 무한대로 맛이 표현이 가능하거든요!<br>
+&emsp;하나의 원두가 보통 씁, 10개에서 20개 정도의 향을 가지고 있구요,<br>
+&emsp;이제 제가 15개 정도를 사용하니까 이제 조합하면 되게 많은…, 맛들이 나오게 돼요.<br>
+&emsp;이제 제가 가끔 찻잎도 넣기 때문에 더 많은 경우의 수가 나오고요.<br>
+&emsp;그래서 뭐가 손님이 말을 걸고 제가 그 답을 하는 과정에서<br>
+&emsp;가장 다채롭게 표현할 수 있는 게 원두라고 생각을 해가지고 원두로 시작을 했고,<br>
+&emsp;아직도 이렇게 원두 같은 정체성으로 유지를 해오고 있는 것 같아요.<br>
+1 : 아까 주신 것들도 읽어 보았는데, <br>
+&emsp;거기에 커피 같은 경우는 우유가 들어가지 않는다고 써 있더라구요, <br>
+0 : 핸드드립으로만 표현하고 있어요! <br>
+1 : 아~그것도 같은 이유인가요? 정체성에 대한? <br>
+0 : 그것도 같은 이유라기보단…, 씁…, 그 사람…,<br>
+&emsp;손님들에게 좀 알려주고 싶은 마음이 있어서,<br>
+&emsp;그냥 원두로 추출한 것도 이렇게 다채로움을 가질 수 있다는 것을 알려 드리고 싶어 가지고….<br> 
+&emsp;제가 커피를 엄청 좋아해서…. 그으렇습니다! <br>
+ <br><br>
+      </div>
+      <div style="width:2100%;"></div>
+    </div>
+    <div style="display: flex;">
+      <div style="width:2100%;"></div>
+      <div style="width:2100%;">
+            <br><br><h1>
+   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; #1 -3.
+ <br><br><br>
+1 : 네! 다음은, 이 공간에서 가장 편안하다고 느끼거나,<br>
+&emsp;나를 편안하게 해주는 물건이 있을까요? <br>
+0 : 공간에서 가장 제가 편안하다고 느끼는 물건이요? <br>
+1 : 네. <br>
+0 : 아니면 손님들을 편안하게 해줄 수 있는..? <br>
+1 : 음, 자신이 느꼈을 때…, 네! <br>
+0: 어… 제가 편안하다고 느끼는 물건은 어……. <br>
+&emsp;씁…, 이 공간에서….    어…. 되게 어렵네요. <br>
+0 1 : 하하하하…. <br>
+1 : 씁…, 편안하다고 느끼는….<br>    
+&emsp;이 공간을 좀 편안하게 느끼는데..?<br>
+&emsp;이 공간에서…, 제가…. <br>
+0 : 그렇다면 공간 자체가 답이 될 수도 있을 것 같네요. <br>
+1 : 편안하게 느끼는….<br>
+&emsp;근데 이 공간은 또…, 제가…, 곧 옮길 것이기 때문에.<br>
+&emsp;그, 저는 계속 이동하는 공간이기 때문에…, 어…….<br>
+&emsp;어렵네요…. 공간에서 가장 편안….<br>   엄청, 엄청나게 어려운데….<br>
+&emsp;하하하하…. 어…, 다음 질문 먼저 해도 되나요? <br>
+
+0 : 어! 네에! ㅎㅎ    반대…, 반대되는 질문이긴 한데요,<br>
+&emsp;그냥 단순하게 생각하셔도 괜찮을 것 같아요. <br>
+&emsp;그냥 평소에 거슬리거나, 조금 나를 불편하게 했다,<br>
+&emsp;하는 것들이 있을까요? 예를 들어서, <br>
+1 : 이 공간에서요? <br>
+0 : 네, 그냥 지나가다가 툭툭거리는 그런 것들이거나, <br>
+1 : 아 ~~~ <br>
+0 : 내 이동 동선에 살짝 거슬린다던가,그런 것들도 간단하게 대답해주셔도 좋습니다. <br>
+1 : 이 공간에서 가장 불편하게 생각되는 거…, 는….<br>
+&emsp;씁…. <img src="ghksvndrl.png" onmouseover="this.src='ghksvndrl1.png'" onmouseout="this.src='ghksvndrl.png'"; style="cursor:pointer" onclick="window.open('file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/dadalap1-3.1.html', 'new', 'toolbar=no,location=no,directories=no, status=no,menubar=no,scrollbars=no, resizable=no,width=400,height=600');
+window.open('file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/dadalap1-3.2.html', 'new2', 'toolbar=no,location=no,directories=no, status=no,menubar=no,scrollbars=no,top=00,left=400,resizable=no,width=400,height=600');
+window.open('file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/dadalap1-3.3.html', 'new3', 'toolbar=no,location=no,directories=no, status=no,menubar=no,scrollbars=no,top=00,left=500,resizable=no,width=400,height=600')";><br>
+&emsp;그 요리를…, 여기가 원래 요리를 하던 술집이었는데 저는 요리를 안 해요.<br>
+&emsp;근데 그 예전에 그 하시던 분이 환풍기를 엄청 좋은 걸 설치해 놓았더라구요.<br>
+&emsp;근데 그게 저희 바 테이블에 보시면은 동선에 계속 걸려서 어깨랑 머리에 부딪혀요.<br>
+&emsp;저희는 사용하지 않는데<br>.
+&emsp;근데 그걸 철거하는데 300만원이 든다 해가지고, 그냥 놔두고 있거든요. ㅎㅎ<br>
+&emsp;그게 젤 불편하다.<br>
+&emsp;약간 만약에 이 공간을 그만두고 다른 공간으로 간다면 그 환풍기 때문이지 않을까…. ㅎㅎ <br>
+0 1 : ㅎㅎㅎㅎㅎ <br>
+ <br><br></h1>
+      </div>
+    </div>
+    <div style="display: flex;">
+      <div style="width:2100%;">
+       &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#1 -4.
+ <br><br><br>
+0 : 그러면 다시 전 질문으로 넘어 가볼까요~? <br>
+1 :  네에, 젤 편안하게 생각하는 거는..!<br>   
+&emsp; 제가 생각이 났어요!<br>
+&emsp; 그 저기 밑에 사다리가 있어요.<br>
+&emsp;그 제가 이것도 주원 온 건데, <img src="tkekfl.png" onmouseover="this.src='tkekfl1.png'" onmouseout="this.src='tkekfl.png'"; style="cursor:pointer" onclick="window.open('file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/dadalap1-4.4.html', 'new', 'toolbar=no,location=no,directories=no, status=no,menubar=no,scrollbars=no, resizable=no,width=600,height=250');
+window.open('file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/dadalap1-4.3.html', 'new2', 'toolbar=no,location=no,directories=no, status=no,menubar=no,scrollbars=no,top=200,left=00,resizable=no,width=600,height=250');
+window.open('file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/dadalap1-4.2.html', 'new3', 'toolbar=no,location=no,directories=no, status=no,menubar=no,scrollbars=no,top=400,left=00,resizable=no,width=600,height=250');
+window.open('file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/dadalap1-4.1.html', 'new4', 'toolbar=no,location=no,directories=no, status=no,menubar=no,scrollbars=no,top=600,left=00,resizable=no,width=600,height=250')";><br>
+&emsp;근데 제가 그걸 동묘에서 그 혜화동까지 들고 오고, 혜화동에서 여기까지 들고 왔어요.<br>
+&emsp;&ensp;그 사다리를 너무 좋아해가지고.<br>
+&emsp;&ensp;약간 애착이 가는 물건인데, 엄청 오래된 나무로 그 만들어진 물건인데,<br>
+&emsp;&ensp;그 목공 하시는 분들이 되게 오래 쓰시던 거에요.<br>
+&emsp;&ensp;그래서 제가 그분들한테 가서<br>
+&emsp;&ensp;사다리 이거 혹시, 그, 안 쓰는 거면, 버리는 거면 나주면 안 되냐,<br>
+&emsp;&ensp;이렇게 말을 했어요.<br>
+&emsp;&ensp;그랬더니 그, 낡아서 밟고 올라가면 부서질 텐데 이러는 거에요.<br>
+&emsp;&ensp;엄청 그 나무가 해져있었거든요.<br>
+&emsp;&ensp;그래서 약간 안 쓰는 사다리인데 창고 한편에 보관해 놓으시고, 있었어요.<br>
+&emsp;&ensp;그 어차피 저는 안 쓸꺼라…, 가게 인테리어로 쓰려고 한다,이래가지고 들고 왔어요.<br>
+&emsp;&ensp;엄청 무거워서 그 버스에도 안 들어가고, 그냥 걸어 왔거든요.<br>
+&emsp;&ensp;그래서 그걸 색칠해서 지금 매장 인테리어로 쓰고 있는데 그걸 보면 마음이 좀 편안한 것 같아요.<br>
+&emsp;&ensp;그것도 얘 (우체통) 랑 죽을 때까지 가져가지 않을까 생각하고 있어요. <br>
+  <br><br>
+      </div>
+      <div style="width:2100%;"></div>
+    </div>
+    <div style="display: flex;">
+      <div style="width:2100%;"></div>
+      <div style="width:2100%;">
+            <br><br><h1>
+       &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#1 -5.
+ <br><br><br>
+0 : 네. ㅎㅎ 감사합니다. <br>
+1 : 아? 벌써 끝났나요? <br>
+0 : 저희가 준비한 질문은 딱, 요 4가지이구요.<br>
+&emsp;&ensp;하나 더 추가적으로 드리고 싶은 질문이 있는데,<br>
+&emsp;&ensp;저희가 이렇게 가게 사장님분들을 만나면서 질문을 하는 과정을 계속할 건데<br>
+&emsp;&ensp;사장님이 다른 공간을 소개해주시거나…, <br>
+1 : 아아 ~~~~~ <br>
+0 : 뭔가 내가 애착이 가서 자주 가는 공간이나,<br>
+&emsp;&ensp;그런 곳으로 다음 인터뷰를 진행할 예정이거든요. <br>
+1 : 오오 ~~~~~ <br>
+0 : 혹시 추천해주실 곳이 있을까요? <br>
+1 : 제가 소개하고 싶은 공간이요?<br>
+&emsp;&ensp;아, <a href="file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/1115415.html" target="_blank"><img src="Rhcwlq.png" onmouseover="this.src='thvna.png'" onmouseout="this.src='Rhcwlq.png'"; style="cursor:pointer"></a> 이라는 곳을 소개하고 싶은데요.<br>
+&emsp;&ensp;거기는 <a href="file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/1115415.html" target="_blank"><img src="Rhcwlq.png" onmouseover="this.src='thvna.png'" onmouseout="this.src='Rhcwlq.png'"; style="cursor:pointer"></a>, <a href="file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/1115415.html" target="_blank"><img src="Rhcwlq.png" onmouseover="this.src='thvna.png'" onmouseout="this.src='Rhcwlq.png'"; style="cursor:pointer"></a>에 관한 곳이거든요.<br>
+&emsp;&ensp;<a href="file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/1115415.html" target="_blank"><img src="Rhcwlq.png" onmouseover="this.src='thvna.png'" onmouseout="this.src='Rhcwlq.png'"; style="cursor:pointer"></a>을 모으시는 분인데, 그리고 물건 하나하나를 이제 손님한테 드릴 때 마다<br>
+&emsp;&ensp;이야기를 선물을 해주세요. <a href="file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/1115415.html" target="_blank"><img src="Rhcwlq.png" onmouseover="this.src='thvna.png'" onmouseout="this.src='Rhcwlq.png'"; style="cursor:pointer"></a>에 얽힌 이야기를.<br>
+&emsp;&ensp;아마 저보다 훨씬 재미있는 답을 주실 것 같아요. 네.<br>
+&emsp;&ensp;그 <a href="file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/1115415.html" target="_blank"><img src="Rhcwlq.png" onmouseover="this.src='thvna.png'" onmouseout="this.src='Rhcwlq.png'"; style="cursor:pointer"></a> 하자마자 사실 그분이 더 생각이 났는데,<br>
+&emsp;&ensp;요기 바로 옆에 있어요. 아마 오늘 열었을 수도 있을 거예요. <br>
+&emsp;&ensp;근데 예약을 하고 가야 하는 거로 알고 있어요.<br>
+&emsp;&ensp;<a href="file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/1115415.html" target="_blank"><img src="Rhcwlq.png" onmouseover="this.src='thvna.png'" onmouseout="this.src='Rhcwlq.png'"; style="cursor:pointer"></a>. <a href="file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/1115415.html" target="_blank"><img src="Rhcwlq.png" onmouseover="this.src='thvna.png'" onmouseout="this.src='Rhcwlq.png'"; style="cursor:pointer"></a>이라고 쳐도 나오고…. <br>
+ <br><br>
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;오토바이 지나가는 시끄러운 소리.
+ <br> <br><br>
+0 : 네, 감사합니다.<br>
+&emsp;&ensp;이런 곳을 받고 싶었어요. ㅎㅎ <br>
+1 : 여기 다다랩에서 왔다고 그러면 되게 좋아하실 거예요. <br>
+0 : 맞아요, 말씀을 드리려고 해요! <br>
+1 : 그렇습니다, 어쨌든 추천 드리는…. <br>
+0 : 네! 감사합니다~! <br>
+1 : 거기는 한, 한 시간 넘게 잡고 가야 할 수도 있어요.<br>
+&emsp;&ensp;사장님이 말하는 걸 좋아해가지고. 저는 말을 잘 못해서….  <br>
+0 : 아뇨, 아뇨, 아뇨. <br>
+1 : 어…. 너무 빨리 끝난것 같은데…. <br>
+0 : 아니에요, 되게 짧고 간단한 거여서…. <br>
+&emsp;&ensp;혹시 방금 말씀해주신 이 내용으로 칵테일 한 잔 부탁드려도 괜찮을까요?<br>
+&emsp;&ensp;이야기하신 에피소드 어떤 것도 좋습니다. <br>
+1 : 칵테일? 킥테일을 원하시나요?<br>
+&emsp;&ensp;네, 알겠습니다. 그러면은 칵테일 한번 두잔? 드릴까요? <br>
+0 : 네? 네! <br>
+1 : 두 분이 물건을 하나씩 고르시면 제가 한 잔씩 드릴게요. <br>
+0 : 감사합니다. 혹시 안에 사진 촬영 가능할까요? <br>
+1 : 어~ 네, 사진 촬영 맘대로 다 찍으셔도 돼요. <br>
+0 : 어! 네, 감사합니다. <br>
+1 : 이것도 찍으셔두 되고요. <br>
+0 : 네~ 감사합니다. <br>
+1 : 담배는 좀 빼야겠다..!   누가 여기다 담배를 넣어 놓았지. ㅎㅎ <br>
+ <br> <br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;이동하는 발걸음 소리. <br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;계단을 내려간다.<br>
+ <br> <br></h1>
+      </div>
+    </div>
+
+
+    </div>
+  </div>
+    <audio audio autoplays>
+<audio src="file:///Users/jeonhuihwan/Downloads/포트포리오/2-2/시각워크숍/dadalap.mp3" autoplay>
+</audio>
+</body>
+
+</html>
